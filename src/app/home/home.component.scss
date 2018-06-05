@@ -1,0 +1,48 @@
+.container {
+	display: grid;
+	border: 1.5px solid green;
+	padding: 6em;
+	justify-content: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	color: green;
+	margin-bottom: 6em;
+}
+
+.caption {
+	margin-top: 13em;
+}
+
+::ng-deep :focus {
+	outline: 0;
+}
+
+::ng-deep .carousel-indicators .active{
+	background-color: green;
+}
+
+::ng-deep .carousel-control-prev-icon,
+::ng-deep .carousel-control-next-icon {
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+::ng-deep .carousel-control-next-icon:after {
+  content: '>';
+  font-size: 40px;
+  color: green;
+}
+
+::ng-deep .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: green;
+}

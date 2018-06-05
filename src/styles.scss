@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+@import '~bootstrap/scss/bootstrap.scss';
+
+body {
+	background-color: black;
+	color: green;
+	font-family: arial;
+}
+
+h2, h1 {
+	font-weight: 2;
+}
+
+a {
+	text-decoration: none;
+	color: green;
+	cursor: pointer;
+}
+
+a:hover {
+	opacity: 0.7;
+	cursor: pointer;
+	text-decoration: none;
+	color: green;
+}
+
+
+
+
+
+
+
+

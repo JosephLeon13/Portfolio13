@@ -1,0 +1,42 @@
+.grid-container {
+	border: 1px solid green;
+	display: grid;
+	padding: 2em;
+	margin-bottom: .5em;
+}
+
+.item-1, .item-2, .item-3 {
+	padding: 1em;
+	text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+	.item-1, .item-2, .item-3 {
+		border: 1px solid green;
+	}
+
+	.left {
+		grid-column: 1 / 4;
+	}
+
+	.right {
+		grid-column: 6 / 12;
+		justify-self: end;
+		
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+	nav a {
+		display: block;
+		border-bottom: 1px solid green; 
+	}
+}
+
+
+
+
+
+
+

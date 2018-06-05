@@ -1,0 +1,33 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 50px;
+  background-color: black;
+  padding: 10px;
+  border: 1px solid green;
+}
+.grid-container > div {
+  background-color: black;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border: 1px solid green;
+}
+.item1 {
+  grid-column: 1 / 5;
+}
+
+@media screen and (max-width: 1000px) {
+  .grid-container > div {
+    font-size: 15px; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container > div {
+    font-size: 10px; 
+  }
+}
+
+
+
